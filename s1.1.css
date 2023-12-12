@@ -91,6 +91,10 @@ body {
         background-color: rgb(240, 240, 134);
         flex-direction: column;
     }
+
+    body {
+        background-color: rgb(195, 150, 236);
+    }
 }
 
 @media all and (max-width: 576px) {
@@ -100,6 +104,10 @@ body {
 
     .box-three {
         flex-direction: column;
+    }
+
+    body {
+        background-color: aquamarine;
     }
 }
 

@@ -111,3 +111,13 @@ body {
     }
 }
 
+.first-div:hover {
+    animation-name: animate-div;
+    animation-duration: 1s;
+}
+
+@keyframes animate-div {
+    0% {background-color:rgb(208, 37, 37);}
+    100% {background-color: rgb(222, 117, 205); transform: scale(1.1, 1.8)}
+}
+

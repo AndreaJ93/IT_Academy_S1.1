@@ -86,4 +86,10 @@ body {
     background-color: rgb(245, 168, 74);
 }
 
+@media all and (max-width: 768px) {
+    .second-box {
+        background-color: rgb(240, 240, 134);
+        flex-direction: column;
+    }
+}
 

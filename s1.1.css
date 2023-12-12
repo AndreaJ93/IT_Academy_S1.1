@@ -93,3 +93,13 @@ body {
     }
 }
 
+@media all and (max-width: 576px) {
+    .box-one {
+        flex-direction: column;
+    }
+
+    .box-three {
+        flex-direction: column;
+    }
+}
+
